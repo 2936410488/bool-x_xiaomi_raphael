@@ -1,4 +1,4 @@
-8name: Continues testing
+name: Continues testing
 
 on:
   push:
