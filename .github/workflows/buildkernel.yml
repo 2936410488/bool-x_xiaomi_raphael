@@ -1,4 +1,4 @@
-name: Continues testing
+8name: Continues testing
 
 on:
   push:
@@ -84,7 +84,7 @@ jobs:
           git config --global user.name ""
           git config --global user.email ""
           cd $HOME
-          git clone https://github.com/2936410488/bool-x_xiaomi_raphael -b 14-HypeeMiui --depth 1 bool
+          git clone https://github.com/2936410488/bool-x_xiaomi_raphael -b 14-HyperMiui --depth 1 bool
           cd $HOME/bool
           bash build.sh
 
